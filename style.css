@@ -1,0 +1,58 @@
+
+
+
+header {
+    padding: 5px 10px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: coral;
+}
+
+body {
+    position: fixed;
+    padding: 5px 10px;
+    left: 0;
+    top: 100px;
+    background-color: burlywood;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 2px solid coral;
+    text-align: left;
+    padding: 8px;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: burlywood;
+    border-radius: 8px;
+}
+
+::placeholder {
+    color: black;
+}
+
+.button{
+    background-color: coral;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: 10px;
+    line-height: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: chocolate;
+}
